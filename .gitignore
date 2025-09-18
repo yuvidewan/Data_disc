@@ -21,6 +21,11 @@ data/*.json
 data/*.zip
 *.sqlite3
 
+datasets/*.csv
+datasets/*.xlsx
+datasets/*.json
+datasets/*.zip
+
 # Logs
 *.log
 

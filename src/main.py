@@ -1,3 +1,5 @@
+from fetcher import search_kaggle_datasets
+
 def main():
     print("🔎 Open Data Discovery Engine")
     print("Type 'exit' to quit.")
@@ -8,7 +10,7 @@ def main():
             print("Goodbye! 👋")
             break
         else:
-            print(f"Searching for: {query}")
+            search_kaggle_datasets(query)
 
 
 if __name__ == "__main__":
